@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: Epa ICR Intranet
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -37,3 +37,12 @@ contentful:
         space: ENV_CONTENTFUL_SPACE_ID  # Required - should be moved to secret area
         access_token: ENV_CONTENTFUL_ACCESS_TOKEN # Required - should be moved to secret area
         destination: contentful
+
+# Generate blog pages example
+page_gen-dirs: false
+
+page_gen:
+- data: 'site.data.contentful.epa-icr-intranet.basic'
+  template: 'basic'
+  dir: "basic"
+  name: 'url_path'
