@@ -1,0 +1,21 @@
+---
+basic:
+- sys:
+    id: 2hiL2pQjJhLgmLuzWIUVfx
+    created_at: !ruby/object:DateTime 2022-06-24 15:06:23.748000000 Z
+    updated_at: !ruby/object:DateTime 2022-06-24 15:08:35.080000000 Z
+    content_type_id: basic
+    revision: 2
+  title: Do I Need an ICR?
+  description: asdgasdgaewgawegr
+  url_path: do-i-need-an-icr
+  body: this is what I really need to pull into cards
+home:
+- sys:
+    id: 4kAoicqaP527Juak1n2Nvy
+    created_at: !ruby/object:DateTime 2022-06-24 15:01:04.521000000 Z
+    updated_at: !ruby/object:DateTime 2022-06-24 15:01:04.521000000 Z
+    content_type_id: home
+    revision: 1
+  title: Information Collection Requests
+  body: asdfasdfasdfasdg
